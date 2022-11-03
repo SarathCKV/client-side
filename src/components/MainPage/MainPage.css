@@ -1,0 +1,78 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header .search-container {
+  display: flex;
+}
+
+.page-header .search-container i {
+  color: var(--dark-gray);
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.page-header .search-container input {
+  border-left: none;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  height: 50px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.page-header .search-container input:focus {
+  outline: none;
+}
+
+.hide {
+  display: none;
+}
+
+.select-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.select-container .select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 2px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-container .select-dropdown {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  position: absolute;
+  top: 45px;
+  width: 100%;
+  background: var(--white);
+}
+
+.select-container .select-dropdown div {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.select-container .select-dropdown div:hover {
+  background: var(--very-light-gray);
+  cursor: pointer;
+}

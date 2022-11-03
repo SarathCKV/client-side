@@ -1,0 +1,40 @@
+.detail-page .btn {
+  background: var(--white);
+  padding: 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details .country-flag {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.details .country-flag img {
+  width: 100%;
+}
+
+.details .country {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.details .country .country-details {
+  margin: 10px;
+}
+
+.details .country .country-details h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}

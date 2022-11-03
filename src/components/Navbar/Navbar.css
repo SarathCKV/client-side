@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 100px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 11px 8px -10px #ccc;
+}
+
+.navbar .btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background: var(--white);
+  border: 1px solid var(--white);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.navbar .btn:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.navbar .btn i {
+  margin-right: 5px;
+}
